@@ -1,0 +1,12 @@
+{
+    "dcols":["ID", "target", "x", "y"],
+	"dtypes":["str", "int", "int", "int"],
+	"inputcols":["x", "y"],
+    "target":["target"], 
+    "modelType":"ann",
+	"index":"ID",
+	"normalizeInputs":"no",
+    "modelParams":{"activation":"sigmoid","numHiddenLyrs":2, "numHiddenNodesPerLyr":2, "learningRate":0.2,
+					"epochs":5},
+	"startWeight": 0.5
+}

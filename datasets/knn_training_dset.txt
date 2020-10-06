@@ -1,0 +1,29 @@
+<class 'pandas.core.frame.DataFrame'>
+Index: 1000 entries, item-1 to item-1000
+Data columns (total 4 columns):
+target     1000 non-null int32
+x          1000 non-null float64
+y          1000 non-null float64
+PFstore    1000 non-null bool
+dtypes: bool(1), float64(2), int32(1)
+memory usage: 28.3+ KB
+None
+Accuracy for k-fold Training 0 with 640000 training points is:  0.9475 TN TP FN FP 379 379 13 29
+Accuracy for k-fold Training 1 with 640000 training points is:  0.95 TN TP FN FP 370 390 15 25
+Accuracy for k-fold Training 2 with 640000 training points is:  0.9425 TN TP FN FP 374 380 19 27
+Accuracy for k-fold Training 3 with 640000 training points is:  0.9675 TN TP FN FP 383 391 12 14
+Accuracy for k-fold Training 4 with 640000 training points is:  0.955 TN TP FN FP 376 388 13 23
+# records in Fails Only dataset: 27
+Accuracy for k-fold Testing 0 with 40000 test points is:  0.915 TN TP FN FP 78 105 3 14
+Fold time for fold 0 : 376863.00230026245 mS
+Accuracy for k-fold Testing 1 with 40000 test points is:  0.9 TN TP FN FP 92 88 7 13
+Fold time for fold 1 : 401313.65871429443 mS
+Accuracy for k-fold Testing 2 with 40000 test points is:  0.87 TN TP FN FP 85 89 12 14
+Fold time for fold 2 : 426155.76672554016 mS
+Accuracy for k-fold Testing 3 with 40000 test points is:  0.85 TN TP FN FP 86 84 13 17
+Fold time for fold 3 : 450303.1995296478 mS
+Accuracy for k-fold Testing 4 with 40000 test points is:  0.88 TN TP FN FP 84 92 7 17
+Fold time for fold 4 : 474186.3741874695 mS
+Result for TestPoint0:  0
+Result for TestPoint1:  1
+Result for some list:  1

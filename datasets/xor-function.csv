@@ -1,0 +1,9 @@
+target,x,y,ID
+0,0,0,item-1
+1,0,1,item-2
+1,1,0,item-3
+0,1,1,item-4
+0,0,0,item-5
+1,0,1,item-6
+1,1,0,item-7
+0,1,1,item-8

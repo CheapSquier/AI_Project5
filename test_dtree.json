@@ -1,0 +1,10 @@
+{
+    "dtypes":["str", "int", "int", "int", "int", "int"],
+	"dcols":["Example", "A1", "A2", "A3", "A4", "y"],
+	"inputcols":["A1", "A2", "A3", "A4"],	
+    "target":"y", 
+	"index":"Example",
+    "modelType":"dtree",
+	"discretizeInputs":"no",
+    "modelParams":{"maxDepth":5,"splitOn":"entropy"}
+}

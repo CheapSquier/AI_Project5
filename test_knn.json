@@ -1,0 +1,7 @@
+{
+    "dcols":["ID", "target", "x", "y"],
+	"dtypes":["str", "int", "float", "float"], 
+    "target":"target", 
+    "modelType":"knn",
+    "modelParams":{"neighbors":5, "distance":"euclidean"}
+}
